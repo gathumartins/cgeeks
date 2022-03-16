@@ -3,7 +3,9 @@ module.exports = {
       title: ``,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: [{
+  plugins: [
+    'gatsby-plugin-postcss',
+    {
     resolve: 'gatsby-source-wordpress',
     options: {
       "url": "https://backend.creativegeeks.co.ke/graphql"
