@@ -5,12 +5,15 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-postcss',
-    {
-    resolve: 'gatsby-source-wordpress',
-    options: {
-      "url": "https://backend.creativegeeks.co.ke/graphql"
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
+  //   {
+  //   resolve: 'gatsby-source-wordpress',
+  //   options: {
+  //     "url": "https://backend.creativegeeks.co.ke/graphql"
+  //   }
+  // }, 
+  "gatsby-plugin-image", 
+  "gatsby-plugin-react-helmet", 
+  "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
