@@ -8,7 +8,7 @@ module.exports = {
     {
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "https://back.creativegeeks.co.ke/graphql"
+      "url": "https://new.iaccess.co.ke/graphql"
     }
   }, 
   "gatsby-plugin-image", 
