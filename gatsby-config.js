@@ -9,10 +9,10 @@ module.exports = {
     resolve: 'gatsby-source-wordpress',
     options: {
       "url": "https://www.backend.creativegeeks.co.ke/graphql",
-      schema: {
-        timeout: 60000,
-        perPage: 10,
-      },
+      // schema: {
+      //   timeout: 60000,
+      //   perPage: 10,
+      // },
     }
   }, 
   "gatsby-plugin-image", 
